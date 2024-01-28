@@ -1,0 +1,178 @@
+// Place your key bindings in this file to override the defaults
+[
+    // NAVIGATION
+    {
+      "key": "ctrl+shift+a",
+      "command": "workbench.action.terminal.focusNext",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+shift+b",
+      "command": "workbench.action.terminal.focusPrevious",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+shift+j",
+      "command": "workbench.action.togglePanel"
+    },
+    {
+      "key": "ctrl+shift+n",
+      "command": "workbench.action.terminal.new",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+shift+w",
+      "command": "workbench.action.terminal.kill",
+      "when": "terminalFocus"
+    },
+    // FILE TREE
+    {
+      "command": "workbench.files.action.focusFilesExplorer",
+      "key": "ctrl+e",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "n",
+      "command": "explorer.newFile",
+      "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+      "command": "renameFile",
+      "key": "r",
+      "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+      "command": "deleteFile",
+      "key": "d",
+      "when": "filesExplorerFocus && !inputFocus"
+    },
+  
+    // EXTRA
+    {
+      "key": "ctrl+shift+5",
+      "command": "editor.emmet.action.matchTag"
+    },
+    {
+      "key": "ctrl+z",
+      "command": "workbench.action.toggleZenMode"
+    },
+    {
+      "key": "ctrl+z",
+      "command": "-extension.vim_ctrl+z",
+      "when": "editorTextFocus && vim.active && vim.use<C-z> && !inDebugRepl"
+    },
+    {
+      "key": "shift+alt+f",
+      "command": "workbench.action.quickOpen"
+    },
+    {
+      "key": "ctrl+p",
+      "command": "-workbench.action.quickOpen"
+    },
+    {
+      "key": "shift+alt+f",
+      "command": "-notebook.formatCell",
+      "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+      "key": "shift+alt+f",
+      "command": "-editor.action.formatDocument.none",
+      "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+      "key": "shift+alt+f",
+      "command": "-editor.action.formatDocument",
+      "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+      "key": "shift+alt+f",
+      "command": "-notebook.format",
+      "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+      "key": "shift+alt+e",
+      "command": "workbench.action.toggleSidebarVisibility",
+      "when": "editorIsOpen && sideBarFocus"
+    },
+    {
+      "key": "ctrl+b",
+      "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+      "key": "shift+alt+e",
+      "command": "revealInExplorer",
+      "when": "editorTextFocus && !sideBarFocus"
+    },
+    {
+      "key": "shift+alt+d",
+      "command": "editor.action.goToTypeDefinition"
+    },
+    {
+      "key": "shift+alt+d",
+      "command": "-notebook.cell.detectLanguage",
+      "when": "notebookCellEditable && notebookEditable"
+    },
+    {
+      "key": "shift+alt+d",
+      "command": "-editor.detectLanguage",
+      "when": "editorTextFocus && !notebookEditable"
+    },
+    {
+      "key": "shift+alt+w",
+      "command": "workbench.action.closeActiveEditor"
+    },
+    {
+      "key": "ctrl+w",
+      "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+      "key": "shift+alt+enter",
+      "command": "workbench.action.terminal.toggleTerminal",
+      "when": "terminal.active"
+    },
+    {
+      "key": "ctrl+`",
+      "command": "-workbench.action.terminal.toggleTerminal",
+      "when": "terminal.active"
+    },
+    {
+      "key": "shift+alt+c",
+      "command": "editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+/",
+      "command": "-editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+alt+x",
+      "command": "copyFilePath",
+      "when": "!editorFocus"
+    },
+    {
+      "key": "shift+alt+c",
+      "command": "-copyFilePath",
+      "when": "!editorFocus"
+    },
+    {
+      "key": "shift+alt+x",
+      "command": "copyFilePath",
+      "when": "editorFocus"
+    },
+    {
+      "key": "shift+alt+c",
+      "command": "-copyFilePath",
+      "when": "editorFocus"
+    },
+    {
+      "key": "shift+alt+x",
+      "command": "search.action.copyPath",
+      "when": "fileMatchOrFolderMatchWithResourceFocus"
+    },
+    {
+      "key": "shift+alt+c",
+      "command": "-search.action.copyPath",
+      "when": "fileMatchOrFolderMatchWithResourceFocus"
+    }
+  ]
