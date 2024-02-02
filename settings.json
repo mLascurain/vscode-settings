@@ -11,7 +11,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     "cmake.configureOnOpen": true,
     "explorer.confirmDragAndDrop": false,
-    "workbench.colorTheme": "Min Dark",
+    "workbench.colorTheme": "Andromeda Colorizer",
     "editor.fontWeight": "normal",
     "editor.fontSize": 17,
     "terminal.integrated.fontFamily": "monospace",
@@ -22,7 +22,7 @@
         "error",
         "info"
     ],
-    "glassit.alpha": 245,
+    "glassit.alpha": 255,
     "window.zoomLevel": 0.78,
     "workbench.statusBar.visible": true,
     "editor.cursorStyle": "block",
@@ -34,7 +34,8 @@
     "editor.scrollbar.vertical": "hidden",
     "editor.lineHeight": 1.7,
     "editor.rulers": [100],
-    "editor.renderLineHighlight": "none",
+    "editor.renderLineHighlight": "gutter",
+    "window.titleBarStyle": "custom",
     "apc.font.family": "JetBrainsMono Nerd Font",
     "apc.listRow": {
         "height": 24
@@ -54,9 +55,10 @@
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.limit.value": 1,
-    "window.menuBarVisibility": "compact",
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.editor.showTabs": "single",
     "editor.hover.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "editor.lineNumbers": "relative",
 }
